@@ -116,10 +116,43 @@ margin: 0px 8px 8px 0px;
     margin: auto;
     font-family: monospace;
 text-shadow:1px 2px 3px black;}
-#skill-img{
-   padding: 10px;
+#skill-imgh img{
     width: 70%;
+    height: 10%;
+    width: 10%;
+     border-radius: 50%;
+     box-shadow: 1px 1px 10px 2px lightgrey;
     }
+#skill-imgh{
+    display: inline-block;
+    margin-top: 10px;
+} 
+#skill-imgtext {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+
+}
+.skill-text{
+    list-style: none;
+}
+.skill-text li {
+    display: inline-block;
+color: grey;
+    text-decoration: none;
+    font-family: cursive;
+    opacity: 1.5;
+    font-weight: 100;
+    font-size: 1.0rem;
+    width: 20%;
+    margin-top: -100px;
+
+
+}
 .text-highlight {
     color: #2857a4;
     font-weight: 600;
