@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -47,10 +48,10 @@ section{
 }
 #name{
     font-size: 3rem;
-    font-family: inherit;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 0.1rem;
     color: white;
-    font-weight: 800;
+    font-weight: 100;
     margin-bottom: 0.5rem;
     text-shadow:5px 5px 10px deepskyblue;
 }
