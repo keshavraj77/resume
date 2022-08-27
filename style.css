@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
 body {
     margin: 0px;
     font-family: sans-serif;
     font-size: 30px;
 }
+
 #body-header{
     height: 70vh;
     background-image: url(header.jpg);
@@ -25,7 +41,7 @@ margin: 0px 8px 8px 0px;
 .horizontal-list li a{
     color: white;
     text-decoration: none;
-    font-family: cursive;
+    font-family:"Silkscreen", sans-serif;
     opacity: 1.5;
     animation: mymove 5s infinite;
     font-weight: 100;
@@ -55,9 +71,10 @@ section{
     margin-bottom: 0.5rem;
     text-shadow:5px 5px 10px deepskyblue;
 }
-#name a:hover{
+#name:hover{
     font-size: 3.5rem;
-    text-shadow:10px 20px 30px seagreen; ;
+    font-family: "Rubik Maze", sans-serif;
+    text-shadow:10px 20px 30px seagreen;
 }
 .social-list{
     list-style: none;
@@ -90,14 +107,14 @@ margin: 0px 8px 8px 0px;
     height: 17rem;
     width: 17rem;
     margin: auto;
-    margin-top:8%; 
+    margin-top:6%; 
     margin-left: 42%;
 }
 
 #my-image img {
     height: 90%;
     width: 70%;
-   /* border-radius: 50%;*/
+    border-radius: 50%;
     border: 3px solid white;
     opacity: 1.8;
     box-shadow: 1px 1px 10px 2px lightgrey;
@@ -108,7 +125,8 @@ margin: 0px 8px 8px 0px;
     text-align: justify;
     color: grey;
     line-height: 28px;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
+    font-family: "Lobster Two", sans-serif;
     margin-top: 300px;
     margin: auto;
 }
@@ -118,11 +136,16 @@ margin: 0px 8px 8px 0px;
     text-align: justify;
     color: yellowgreen;
     line-height: 28px;
-    font-size: 3.1rem;
-    font-weight: 800;
+    font-size: 3.6rem;
+    font-weight: 500;
     margin: auto;
-    font-family: monospace;
+    font-family:"Turret Road", sans-serif;
 text-shadow:1px 2px 3px black;}
+#skill-head p:hover{
+    font-size: 3.7rem;
+    font-family: "Lobster Two", sans-serif;
+    text-shadow:10px 20px 30px seagreen; ;
+}
 #skill-imgh img{
     width: 70%;
     height: 10%;
@@ -154,9 +177,11 @@ color: grey;
     font-family: cursive;
     opacity: 1.5;
     font-weight: 100;
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     width: 20%;
-    margin-top: px;
+    margin-top:;
+     font-family:"Macondo", sans-serif;
+
 
 
 }
@@ -192,8 +217,14 @@ color: grey;
 .skill2-name span {
     color: white;
     font-size: 1.2rem;
+    font-family:"Cinzel Decorative", sans-serif;
     margin-left: 10px;
     vertical-align: middle;
+}
+.skill2-name span:hover{
+    font-size: 1.5rem;
+    font-family: "Rubik Maze", sans-serif;
+    text-shadow:10px 20px 30px seagreen;
 }
 .timeline {
     position: relative;
@@ -272,12 +303,19 @@ color: grey;
 .experience-designation {
     font-size: 1.4rem;
     color: seagreen;
+    font-family:"Fredericka the Great", sans-serif;
+}
+.experience-designation:hover{
+    font-size: 1.3rem;
+    font-family: "Rubik Iso", sans-serif;
+    text-shadow:10px 20px 30px seagreen;
 }
 
 .experience-company-name {
     margin: 5px 0 0;
     color: #eb822d;
     font-weight: 400;
+ font-family: "Graduate", sans-serif;
     font-size: 1.2rem;
 }
 
@@ -289,9 +327,10 @@ color: grey;
 }
 
 .experience-description {
-    font-size: 14px;
+    font-size: 20px;
     padding: 2px;
     color: grey;
+     font-family: "Rancho", sans-serif;
     line-height: 20px;
 }
 #portfolio-container {
